@@ -16,4 +16,3 @@ public class Ex003MediaSalarios {
         System.out.printf("A média dos salários foi de %.2f", media);
     }
 }
-120
