@@ -1,5 +1,3 @@
-package DesafiosAulas;
-
 import java.util.Scanner;
 
 public class Ex003MediaSalarios {
