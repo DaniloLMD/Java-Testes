@@ -1,6 +1,6 @@
 package DesafiosAulas;
 import java.util.Scanner;
-public class Bhaskara {
+public class Ex008Bhaskara {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
              System.out.print("Valor de A: ");
