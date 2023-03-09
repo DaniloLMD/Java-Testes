@@ -1,32 +1,20 @@
-
-import java.util.Scanner;
 public class teste {
+
+    static int x = 0;
+    static int y = 0;
+
+
     public static void main(String[] args) {
-        // String operacao = "";
-        StringBuilder operacao = new StringBuilder();
-        int contador = 1;
-        double resultado = 0;
-        Scanner input = new Scanner(System.in);
-            while (true){
-                System.out.printf("Número %d: ", contador);
-                String resposta = input.nextLine();
-                if (resposta.equals("0")){
-                    break;
-                }
-                //operacao += resposta + " + ";
-                operacao.append(resposta).append(" + ");
-                resultado += Double.parseDouble(resposta);
-                contador++;
-            }
-        input.close();
+            teste comando = new teste();
+            System.out.println(x + " " + y);
+            int teste = comando.Soma(5, 3);
+            System.out.println(teste);
+            System.out.printf("%d %d", x, y);
+        }
 
-
-        operacao.append(" = ").append(resultado);
-        String finalOriginal = operacao.substring(operacao.lastIndexOf("+"));
-        System.out.println(finalOriginal);
-        String finalModificado = finalOriginal.replace("+ ", "");
-        operacao = new StringBuilder(operacao.toString().replace(finalOriginal, finalModificado));
-
-        System.out.println(operacao);
+    int Soma(int x, int y){
+            this.x = x;
+            this.y = y;
+            return x + y;
         }
     }

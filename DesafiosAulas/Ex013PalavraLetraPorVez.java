@@ -8,8 +8,7 @@ public class Ex013PalavraLetraPorVez {
             String texto = input.nextLine();
         input.close();
         for(int contador = 0; contador < texto.length(); contador++){
-            System.out.println(contador);
-//            System.out.println(texto.charAt(contador));
+            System.out.println(texto.charAt(contador));
         }
 
     }
