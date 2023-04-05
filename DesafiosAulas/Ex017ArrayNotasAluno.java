@@ -11,7 +11,7 @@ public class Ex017ArrayNotasAluno {
             for(int contador = 0; contador <  totalNotas; contador++){
                 System.out.printf("Nota %d: ", contador + 1);
                 notas[contador] = input.nextInt();
-            }
+            }   
         input.close();
         for (double valor: notas){
             media += valor;
