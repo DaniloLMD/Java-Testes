@@ -8,7 +8,6 @@ public class Jantar {
                 2- Feijão  -    150g
                 3- Bife    -    200g
                 4- Salada  -   -100g
-                5- Whey    -   1000g
              ------------------------
                 """;
 

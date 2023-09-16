@@ -21,7 +21,6 @@ public class Pessoa {
         switch (escolha){
             case 1:
                 peso += comer.arroz;
-                System.out.println("1");
                 break;
 
             case 2:
@@ -34,9 +33,6 @@ public class Pessoa {
 
             case 4:
                 peso += comer.salada;
-                break;
-            case 5:
-                peso += comer.whey;
                 break;
             default:
                 System.out.println("Default");

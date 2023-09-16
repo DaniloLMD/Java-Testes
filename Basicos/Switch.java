@@ -2,23 +2,6 @@ package Basicos;
 
 public class Switch {
     public static void main(String[] args) {
-        //SEM BREAK
-//        String computador = "sexo";
-
-//        switch (computador.toLowerCase()){
-//            case "bom":
-//                System.out.println("Você pode rodar java!");
-//
-//            case "medio":
-//                System.out.println("Você pode rodar HTML !");
-//
-//            case "ruim":
-//                System.out.println("Você pode rodar Python!");
-//            default:
-//                System.out.println("Você é o pc do Pyr!");
-//        }
-
-
 
         // COM BREAK
         int nota = 6;

@@ -5,7 +5,4 @@ public class Comida {
     double arroz = 0.15;
     double bife = 0.2;
     double salada = -0.1;
-
-    double whey = 1.0;
-
 }
